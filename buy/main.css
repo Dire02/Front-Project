@@ -1,0 +1,196 @@
+@import url("components.css");
+*
+   {
+
+
+       box-sizing:		border-box;
+       line-height: 1.6;
+       font-family: "B Koodak";
+       outline: none;
+   }	
+body
+    {
+        background-image: url("bg1.jpg");
+        padding:		1em;
+        margin-left:auto;
+        margin-right:auto;
+        width:500px;
+        background-color: #cccccc;
+    }
+html
+   {
+       padding:		1em;
+       font-size: 		16px;
+      
+   }
+   form
+   {
+    background-color: rgba(245, 245, 245,50%);
+    border-radius: 20px;
+    padding:		1em;
+    font-size: 		16px;
+   }
+:lang(fa)
+   {
+       direction: rtl;
+       text-align: right;
+       
+   }
+:lang(en)
+   {
+       direction: ltr;
+       text-align: left;
+       
+   }
+input,textarea,button,label
+   {
+       height: 		 48px;
+       padding:		 16px;
+       border:		 1px solid transparent;
+       border-radius:	25px; 
+       font-size:		20px;
+       margin: 8px 8px 8px 8px;
+       min-width:		 200px;
+       max-width: 		 100%;     
+   }
+   input
+   {
+    background-color: #aa9a9a;
+    width: 45%;
+    display: inline-block;
+   }
+textarea
+   {
+       height: 6em;
+   }
+   
+form
+	{
+		box-sizing:		border-box;
+		margin-left:auto;
+		margin-right:auto;
+		width:500px;
+        display: inline-block;
+		padding: 8px;
+		font-family: "b koodak";
+		
+	}	
+  p{
+    padding-bottom: 4px;
+    font-size: 20px;
+  }
+body
+	{
+		padding:		1em;
+		margin-left:auto;
+		margin-right:auto;
+		width:500px;
+		
+	}
+:lang(fa)
+	{
+		direction: rtl;
+		
+	}
+
+textarea
+	{
+		height: 6em;
+	}
+
+    .login-container {
+        width:55%;
+        border-radius: 2em;
+        background: rgb(79,131,167);
+        background: linear-gradient(0deg, rgba(79,131,167,1) 0%, rgba(238,169,105,1) 100%);
+        padding: 20px;
+        margin-right:22%;
+        margin-top:6%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      
+      .login {
+      background-color: #f1f1f1;
+       width:100%;
+       border-radius: 2em;
+       padding: 20px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      
+      /* Page alignment  */
+      
+       .display.box{
+        width:45%;
+        display:inline-block;
+      }
+      
+
+
+
+      .input-outline{ 
+        padding:0px 16px 0px 12px;
+        color: black;
+        text-indent: 30px;
+        width: 60%;
+        height:48px;
+        box-sizing: border-box;
+        resize: vertical;
+        font-size:18px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.300);
+        background-color: inherit;
+      }
+      
+      .label-outline{
+        position: absolute;
+        font-size: 18px;
+        right: 5%;
+        top: 30%;
+        padding: 0 8px;
+        margin: 0 40px;
+        background-color: inherit;
+        color: white;
+          
+      }
+      
+      .outline-textfield {
+        position: relative;
+      }
+      
+
+      
+      /*  help text of field */
+      
+      .help-text
+      {
+        margin-right: 40px;
+      
+      }
+      
+      /*  Outlined text field icons */
+      
+      
+      .input-SECicon{
+        position: absolute;
+        cursor: pointer;
+        margin-top: -50px;
+        color:rgb(110, 108, 108);
+        font-size:18px;
+        padding:8px 12px 8px 12px;
+        left: 40%;
+      }
+      
+      .input-Mainicon{
+        position: absolute;
+        cursor: pointer;
+        margin-top: -50px;
+        color:rgb(110, 108, 108);
+        font-size:18px;
+        padding:8px 24px 8px 12px;
+        right:0;
+      }
+
+		
+
+
+           
+       
